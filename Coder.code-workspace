@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Codo a Codo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "clase2"
+	}
+}
