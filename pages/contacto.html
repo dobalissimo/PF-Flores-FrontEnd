@@ -5,74 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" type="image/x-icon" href="../img/iconos/android-chrome-512x512.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+
 
 </head>
 <body>
-    <nav>
-        <a href="../index.html">
-            <img src="../img/png/logo-no-background.png" alt="Logo de Bourdeaux" class="logo">
-        </a>
-        <ul>
-            <li>
-                <a href="../index.html">Inicio</a>
-            </li>
-            <li>
-                <a href="cervezas.html">Cervezas</a>
-            </li>
-            <li>
-               <a href="gastronomia.html">Gastronomia</a>
-            </li>
-            <li>
-               <a href="locales.html">Locales</a>
-            </li>
-            <li>
-               <a href="contacto.html">Contacto</a>
-            </li>
-        </ul>
-    </nav>
+    <!-- script js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+    <!-- inicio nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand nav-item" href="../index.html"> <img src="../img/iconos/android-chrome transparent-512x512.png" width="40em"" alt="Logo"> Bourdeaux</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="cervezas.html">Cervezas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gastronomia.html">Gastronomia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="locales.html">Locales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- fin nav --> 
    
-    <main class="caja">
-        <h1>Contactanos</h1>
-        <p>Podés escribirnos por acá o por <a href="mailto:dobalissimo@gmail.com">email</a></p>
-        <form action="envio.php">
-            <div>
-                <label for="name">Nombre</label>
-                <input type="text" id="name" placeholder="Tu nombre completo">
+    <main>
+           
+         <!-- inicio formulario -->
+        <body>
+            <div class="main-block contacto">
+              <div class="left-part">
+                <i class="fas fa-envelope"></i>
+                <i class="fas fa-at"></i>
+                <i class="fas fa-mail-bulk"></i>
+              </div>
+              <form action="/">
+                <h1>Contactanos</h1>
+                <h5>Podés escribirnos por acá o por <a href="mailto:dobalissimo@gmail.com">email</a></h5>
+                <div class="info">
+                  <input class="fname" type="text" name="name" placeholder="Nombre y apellido">
+                  <input type="text" name="name" placeholder="Email">
+                  <input type="text" name="name" placeholder="Telefono">
+                </div>
+                <p>Mensaje</p>
+                <div>
+                  <textarea rows="4"></textarea>
+                </div>
+                <button type="submit" href="/">Enviar</button>
+              </form>
             </div>
-            <div>
-                <label for="email">Correo&nbsp;&nbsp;</label>
-                <input type="email" id="email" placeholder="Tu correo">
-            </div>
-            <div>
-                <label for="tel">Número</label>
-                <input type="tel" placeholder="Teléfono">
-            </div>
-            <div>
-                <label for="mensaje">Mensaje</label>
-                <br>
-                <textarea name="" id="" cols="40" rows="15"></textarea>
-            </div>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar">
-        </form>
+          </body>
+         
+           
         </main>
+        <!-- fin formulario -->
+        <!-- inicio footer -->
         <footer class="decorate">
-            <a href="index.html">
-                <img src="../img/png/logo-white.png" alt="Logo de Bourdeaux">
+            <a href="../index.html">
+                <img src="../img/png/logo-white transparent.png" class="logo" alt="Logo de Bourdeaux">
                 <br>
             <a href="https://www.facebook.com/" target="_blank">
                 <img src="../img/iconos/facebook.png" alt="Nuestro Facebook" class="icono">
             </a>
-            <a href="https:twitter.com" target="_blank">
+            <a href="https://twitter.com" target="_blank">
                 <img src="../img/iconos/Twitter.png" alt="Nuestro Twitter" class="icono">
             </a>
-            <a href="https:instagram.com" target="_blank">
+            <a href="https://instagram.com" target="_blank">
                 <img src="../img/iconos/Instagram.png" alt="Nuestro Instagram" class="icono">
             </a>
     
                     
         </footer>
+        <!-- fin footer -->
+
+        
 </body>
 </html>
