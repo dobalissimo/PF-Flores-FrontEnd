@@ -1,0 +1,31 @@
+/* locales cards */
+.cajita{
+    height:auto;
+    width: auto;
+    overflow: hidden;
+    border: 1px solid;
+    background-color: $mainColor;
+    
+   }
+
+   
+
+   .cajita p {
+    color: $fontColor2;
+    font-family: $mainFont;
+   }
+
+   
+
+   .card {
+    width: 18rem;
+    background-color: $mainColor;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2392ac9f' fill-opacity='0.2'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-family: $mainFont;
+    color: $fontColor2;
+        p {
+            color: $fontColor;
+        }
+   }
+
+

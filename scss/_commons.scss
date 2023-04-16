@@ -1,0 +1,101 @@
+//body
+
+body {
+    background-color: $mainColor;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2392ac9f' fill-opacity='0.2'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+
+//h1 a h5 + p
+
+h1,
+h2,
+h3{
+    @include textos2 (300)
+}
+
+
+
+  
+h1{
+    font-size: 3em;
+    font-weight: 900;
+    overflow: auto;
+text-align: center;
+}
+
+h2{
+    font-size: 2,5em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+h5 {
+    font-size: 2em;
+    @include textos2 (700);
+}
+
+p{
+    color: $fontColor2;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.4em;
+    line-height: 1.5em;
+}
+
+//flex + position
+
+.flex-direction{
+    @include myflex(center);
+}
+
+.flex-wrap{
+    @include myflex(row);
+    flex-wrap:wrap;
+
+}
+.center{
+    position:relative;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 1em;
+    justify-content: center
+}
+
+.map-responsive{
+    @extend .center;
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+
+
+.video {
+    aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+
+
+

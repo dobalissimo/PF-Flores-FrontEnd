@@ -1,0 +1,14 @@
+nav {
+    ul {
+        li {
+             a{
+                font-family: $mainFont;
+                font-weight: 700;
+                }
+            }
+        }
+    }
+
+.navbar a {
+    @include textos2 (500);
+   }

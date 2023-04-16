@@ -1,0 +1,58 @@
+.contacto{ 
+    height:auto;
+    width: auto;
+    overflow: auto;
+    border: 1px solid;
+    background-color: $mainColor;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2392ac9f' fill-opacity='0.2'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center ;
+    text-align: center;
+}
+
+
+table{background-color: $fontColor;
+padding: 10px;}
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vs;
+    }
+    form {
+    padding: 1.563em;
+    margin: 1.563em;
+    box-shadow: 0 2px 5px #f5f5f5; 
+    background-color: $mainColor; 
+    }
+    .fas {
+    font-size: 4.5em;
+    color: #fff;
+    }
+    
+    input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #1c87c9;
+    outline: none;
+    }
+    input::placeholder {
+    color: #666;
+    }
+    button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: $mainColor; 
+    font-size: 16px;
+    font-weight: 400;
+    color: $fontColor;
+    }
+    button:hover {
+    background: #2371a0;
+    }    

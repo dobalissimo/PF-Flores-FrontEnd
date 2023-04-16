@@ -1,0 +1,11 @@
+@mixin textos2 ($weight){
+    font-weight: $weight;
+    color: $fontColor2;
+    font-family: $mainFont;
+}
+@mixin myflex ($direction){
+    flex-direction: $direction;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

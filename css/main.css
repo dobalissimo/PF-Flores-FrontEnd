@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+body {
+  background-color: #005e06;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2392ac9f' fill-opacity='0.2'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+  overflow: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2, 5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h5 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
+.flex-direction {
+  flex-direction: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.center, .map-responsive {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 1em;
+  justify-content: center;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.video {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
+.responsive {
+  height: auto;
+  width: 40%;
+  padding: 5px;
+  object-fit: contain;
+}
+
+.icono {
+  width: 32px;
+  height: 32px;
+}
+
+footer {
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  max-width: 100%;
+  text-align: center;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+.contacto {
+  height: auto;
+  width: auto;
+  overflow: auto;
+  border: 1px solid;
+  background-color: #005e06;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2392ac9f' fill-opacity='0.2'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+table {
+  background-color: wheat;
+  padding: 10px;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vs;
+}
+
+form {
+  padding: 1.563em;
+  margin: 1.563em;
+  box-shadow: 0 2px 5px #f5f5f5;
+  background-color: #005e06;
+}
+
+.fas {
+  font-size: 4.5em;
+  color: #fff;
+}
+
+input, textarea {
+  width: calc(100% - 18px);
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #1c87c9;
+  outline: none;
+}
+
+input::placeholder {
+  color: #666;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #005e06;
+  font-size: 16px;
+  font-weight: 400;
+  color: wheat;
+}
+
+button:hover {
+  background: #2371a0;
+}
+
+/* locales cards */
+.cajita {
+  height: auto;
+  width: auto;
+  overflow: hidden;
+  border: 1px solid;
+  background-color: #005e06;
+}
+
+.cajita p {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+.card {
+  width: 18rem;
+  background-color: #005e06;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2392ac9f' fill-opacity='0.2'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+.card p {
+  color: wheat;
+}
+
+nav ul li a {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.navbar a {
+  font-weight: 500;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
