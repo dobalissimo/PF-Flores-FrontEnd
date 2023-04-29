@@ -1,0 +1,53 @@
+/* locales cards */
+.cajita{
+    height:auto;
+    width: auto;
+    overflow: hidden;
+    background-color: $mainColor;
+    
+   }
+
+   
+
+   .cajita p {
+    color: $fontColor2;
+    font-family: $mainFont;
+   }
+
+     
+   @media (min-width: 0px) { // Small devices (landscape phones, 480px and up)
+    .cajita h3 { font-size: 1.1em;}
+    .cajita p {font-size: 0.9em;}  
+  }
+   @media (min-width: 576px) { // Small devices (landscape phones, 576px and up)
+    .cajita h3 { font-size: 1.3em;}
+    .cajita p {font-size: 1.1em;}  
+  }
+  @media (min-width: 768px) {// Medium devices (tablets, 768px and up)
+    .cajita h3 { font-size: 1.4em;}
+    .cajita p {font-size: 1.2em;}  
+  }
+  @media (min-width: 992px) { // Large devices (desktops, 992px and up)
+    .cajita h3 { font-size: 1.5em;}
+    .cajita p {font-size: 1.3em;}  
+  }
+  @media (min-width: 1200px) { // Extra large devices (large desktops, 1200px and up)
+    .cajita h3 { font-size: 1.6em;}
+    .cajita p {font-size: 1.4em;}  
+  }
+   
+
+   
+
+   .card {
+    width: 18rem;
+    background-color: $mainColor;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2392ac9f' fill-opacity='0.2'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-family: $mainFont;
+    color: $fontColor2;
+        p {
+            color: $fontColor;
+        }
+   }
+
+
