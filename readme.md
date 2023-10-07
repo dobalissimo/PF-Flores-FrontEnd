@@ -10,7 +10,7 @@
 * SASS
 * BOOTSTRAP
 
-## Descriptción
+## Descripción
 
 _{Mi primer web!! Como bien dijo Maca en la última clase, de nunca haber hecho nada con HTML a poder terminar este sitio avancé un montón y es gracias a ustedes. Me quedan corregir algunas cosas, por ejemplo me gustaría fusionar la compra de burgers y cervezas en una sola page, pero ya no llego a hacerlo. Creo que voy a continuarlo en mis tiempos libres sólo para que me quede más prolijo jaja.}_
 
